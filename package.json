@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "jsdoc": "^3.6.10",
+    "ts-jest": "^28.0.5"
+  }
+}

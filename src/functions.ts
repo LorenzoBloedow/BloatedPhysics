@@ -69,3 +69,8 @@ export function ohmsLaw(get: returnValue, knownValues: elements): number | numbe
             return parseFloat((knownValues.voltage * knownValues.current).toFixed(2));
     }
 }
+
+/**Newton's second law.*/
+export function newtonSecond(mass: number, acceleration: number) {
+    return (mass * acceleration).toFixed(2); 
+}

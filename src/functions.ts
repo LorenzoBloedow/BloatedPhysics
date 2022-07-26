@@ -74,3 +74,8 @@ export function ohmsLaw(get: returnValue, knownValues: elements): number | numbe
 export function newtonSecond(mass: number, acceleration: number) {
     return (mass * acceleration).toFixed(2); 
 }
+
+/**Kinectic energy equation.*/
+export function kineticEnergy(mass: number, velocity: number) {
+    return (0.5 * mass) * (velocity ** 2);
+}
